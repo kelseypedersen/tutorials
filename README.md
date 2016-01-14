@@ -26,3 +26,19 @@ tutorials by kelsey
     - `# GRANT ALL PRIVILEGES ON DATABASE leadgenius_django_db to dev;`
     - `# ALTER USER dev CREATEDB;`
 
+Connecting to Postgres
+- Open up postgres
+  - `$ psql`
+  - `\connect lg_db` --> as Kelsey
+  - `\dt` to show all the tables in the database
+  - `SELECT * FROM emails_email`
+
+- Create database
+  - `python manage.py makemigrations`
+  - `python manage.py migrate`
+  
+- psql shortcuts
+  - `\?` - help
+  - `\d emails_submissions` - list all columns in a table
+
+
